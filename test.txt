@@ -1,0 +1,4 @@
+NESTJS-STUDY
+
+	- push 방법
+		- git push nest
