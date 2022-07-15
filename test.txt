@@ -2,3 +2,7 @@ NESTJS-STUDY
 
 	- push 방법
 		- git push nest
+
+
+Controller >> method와 주소가 주력이다.
+Service    >> 세부적인 기능이 주력이다. 
