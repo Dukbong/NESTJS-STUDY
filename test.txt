@@ -6,3 +6,12 @@ NESTJS-STUDY
 
 Controller >> method와 주소가 주력이다.
 Service    >> 세부적인 기능이 주력이다. 
+
+원하는 Controller 만들기
+	- nest g co
+	- 폴더명
+
+원하는 Service 만들기
+	- nest g s
+	- 폴더명
+	
