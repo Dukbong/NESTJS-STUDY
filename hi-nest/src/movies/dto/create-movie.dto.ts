@@ -3,7 +3,7 @@
 
 import { IsString, IsNumber, IsOptional } from "class-validator";
 // @IsString, @IsNumber은 유효성 검사를 위한 것이다.
-export class CreateMovieDto{
+export class    CreateMovieDto{
     @IsString()
     readonly title: string;
 
