@@ -4,7 +4,7 @@
 $ npm i -g @nestjs/cli
   ```
   ```js
-$ npm new "ProjectName"
+$ nest new "ProjectName"
 ```
   - "ProjectName"폴더와 NestJS 기본 구조가 생성된다.
 ### 구조 빠르게 이해하기
