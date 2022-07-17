@@ -9,6 +9,7 @@ async function bootstrap() {
   app.useGlobalPipes( new ValidationPipe({
     whitelist: true,
     forbidNonWhitelisted: true,
+    // dto에 정의되지 않은 프로퍼티를 넘길시 에러뜨게 만든다.
     transform: true,
     // NestJS는 타입을 받아서 넘겨줄때 자동으로 타입을 변환해준다.
   }));
