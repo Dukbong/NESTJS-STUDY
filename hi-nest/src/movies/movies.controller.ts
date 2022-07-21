@@ -13,7 +13,7 @@ export class MoviesController {
     }
 
     @Get("/:id")
-    getOne(@Param("id") 변수명: number): Movie{
+    getOne(@Param("id") 변수명: number): Movie{ // ⭐ transform
         console.log(typeof 변수명);
         // @Param("id") >> Get주소에있는 id를 변수명에 저장한다.
         return  this.moviesService.getOne(변수명);
